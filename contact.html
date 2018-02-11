@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700|Montserrat:500&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hellson - Контакты</title>
+</head>
+
+<body class="light">
+
+  <div class="overlay pos-hidd">
+    <div class="pos-show"></div>
+    <div class="crest">
+      <div class="crest1 ml-auto"></div>
+      <div class="crest2 ml-auto"></div>
+      <div class="crest-trigger ml-auto"></div>
+    </div>
+    <ul class="menu">
+      <li href="#">
+        <a href="index.html">Главная</a>
+      </li>
+      <li>
+        <a href="contact.html">Контакты</a>
+      </li>
+      <li>
+        <a href="about.html">О Нас</a>
+      </li>
+    </ul>
+  </div>
+
+  <header class="header">
+
+    <div class="row row-fix">
+      <div class="col-2  mr-auto">
+        <div class="contact">
+          <a class="link" href="contact.html">Контакты</a>
+        </div>
+      </div>
+      <div class="col-2 d-flex justify-content-center gg">
+        <div class="img">
+          <a href="index.html"></a>
+        </div>
+      </div>
+      <div class="col-2  ml-auto pd">
+        <div class="about">
+          <a class="link2" href="about.html">О нас</a>
+        </div>
+      </div>
+      <div class="burger test"></div>
+      <div class="burger-trigger test"></div>
+
+    </div>
+
+  </header>
+
+  <section class="contacts">
+
+    <div class="row row-fix">
+      <div class="col-md-12">
+        <div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11226588.436264236!2d10.640545229816423!3d-75.94348366811562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2z0JDQvdGC0LDRgNC60YLQuNC60LA!5e0!3m2!1sru!2sby!4v1518354932301" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    <div class="row row-fix">
+      <div class="col-md mg">
+        <div class="insider1">
+          Роман Конопешко
+          <br> Hellson - Desig & Development
+        </div>
+      </div>
+      <div class="col-md mg">
+        <div class="insider2">
+          Контакты:
+          <br>
+          Email - roma67177@gmail.com
+          <br><br>
+          <a class="social-links" href="https://t.me/twiph">Telegram</a> | <a class="social-links" href="https://vk.com/jolyqolf">VK</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer id="footer" class="footer">
+    <p class="footer__text">
+      © 2017 HELLSON, ALL RIGHTS RESERVED. PLEASE DON'T USE ANY OF THE IMAGES WITHOUT PERMISSION.
+    </p>
+  </footer>
+
+  <style type="text/css">
+    #hellopreloader>#hellopreloader_preload {
+      display: block;
+      position: fixed;
+      z-index: 99999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      background: #333 url(http://hello-site.ru//main/images/preloads/grid.svg) center center no-repeat;
+      background-size: 40px;
+    }
+  </style>
+  <div id="hellopreloader">
+    <div id="hellopreloader_preload"></div>
+  </div>
+  <script type="text/javascript">
+    var hellopreloader = document.getElementById("hellopreloader_preload");
+
+    function fadeOutnojquery(el) {
+      el.style.opacity = 1;
+      var interhellopreloader = setInterval(function() {
+        el.style.opacity = el.style.opacity - 0.04;
+        if (el.style.opacity <= 0.05) {
+          clearInterval(interhellopreloader);
+          hellopreloader.style.display = "none";
+        }
+      }, 16);
+    }
+    window.onload = function() {
+      setTimeout(function() {
+        fadeOutnojquery(hellopreloader);
+      }, 1000);
+    };
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery-ui.js" type="text/javascript">
+  </script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
