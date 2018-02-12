@@ -433,6 +433,7 @@ figcaption:hover {
 .social-links {
   color: #4F42FC;
   border-bottom: 2px solid #4F42FC;
+  font-weight: 400;
 }
 
 .social-links:hover {
